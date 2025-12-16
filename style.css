@@ -12,3 +12,15 @@
 img{
     width: 100px;
 }
+
+.main-info{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.chotiimage{
+  position: absolute;
+  width: 80px;
+  cursor: pointer;
+}
+

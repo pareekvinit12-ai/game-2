@@ -51,7 +51,7 @@ imgs.forEach((e)=>{
   },800)
  big = setInterval(()=>{
    showimage()
-},200)
+},500)
   
 })});
 
@@ -66,10 +66,6 @@ img.addEventListener("click", () => {
   score.innerHTML = `score: ${scor}`;
   img.remove();
 });
-
-
-
-
   maininfo.append(img);
   // mainmain.append(img)
 }
